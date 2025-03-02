@@ -1,0 +1,109 @@
+/* إعداد الخطوط والألوان */
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    direction: rtl;
+    background: linear-gradient(to right, #3a7bd5, #3a6073);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+select {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+input {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:first-of-type {
+    background: #28a745;
+    color: white;
+}
+
+button:first-of-type:hover {
+    background: #218838;
+}
+
+button:last-of-type {
+    background: #007bff;
+    color: white;
+}
+
+button:last-of-type:hover {
+    background: #0056b3;
+}
+
+#result {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffdd57;
+                                }
